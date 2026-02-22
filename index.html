@@ -467,7 +467,7 @@
                 <ul class="output">
                     <li><a href="#about">about.md</a></li>
                     <li><a href="#skills">skills.json</a></li>
-                    <li><a href="#publications">publications/</a></li>
+                    <li><a href="#projects">projects/</a></li>
                     <li><a href="#education">education.log</a></li>
                     <li><a href="#certifications">certs.txt</a></li>
                     <li><a href="#contact">contact.txt</a></li>
@@ -541,30 +541,58 @@
                 </div>
             </section>
 
-            <!-- Publications Section -->
-            <section id="publications">
-                <h2>Publications</h2>
-                <div class="command-line">
-                    <span class="prompt">$</span>
-                    <span class="command">grep -r "*.pdf" ./publications/ | head -3</span>
+            <!-- Projects Section -->
+         <section id="projects">
+    <h2>Projects</h2>
+    <div class="command-line">
+        <span class="prompt">$</span>
+        <span class="command">ls ./projects/</span>
+    </div>
+    <div class="output">
+        <div class="projects">
+
+            <div class="project-card">
+                <h3 class="project-title">WhereToGo – Travel Recommendation Platform</h3>
+                <p>
+                    A responsive web application that helps users discover
+                    destinations based on preferences and categories.
+                    Designed and developed using HTML, CSS, and JavaScript.
+                </p>
+
+                <a href="GITHUB_LINKİN" target="_blank">[ View on GitHub ]</a>
+
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
                 </div>
-                <div class="output">
-                    <div class="projects">
+            </div>
 
-                        <div class="project-card">
-                            <h3 class="project-title">ESC30: Empowering NEET Individuals</h3>
-                            <p>Developed and organized workshops as part of the ESC30 program aimed at helping NEET
-                                individuals integrate into society through practical training and skill-building
-                                activities.</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Project Management</span>
-                                <span class="tech-tag">Social Impact</span>
-                                <span class="tech-tag">Teamwork</span>
-                            </div>
-                        </div>
+        </div>
+        <div class="project-card">
+    <h3 class="project-title">
+        Gamified Micro-Learning for Financial Awareness Development
+    </h3>
 
-                    </div>
-            </section>
+    <p>
+        Research project submitted to TÜBİTAK focusing on improving
+        financial literacy through gamified micro-learning modules.
+        The project integrates behavioral economics principles and
+        interactive digital learning strategies.
+    </p>
+
+    <p style="color: var(--text-secondary);">
+        Status: Submitted – Under Evaluation
+    </p>
+
+    <div class="project-tech">
+        <span class="tech-tag">Research</span>
+        <span class="tech-tag">FinTech</span>
+        <span class="tech-tag">Gamification</span>
+    </div>
+</div>
+    </div>
+</section>
 
             <!-- Education Section -->
             <section id="education">
